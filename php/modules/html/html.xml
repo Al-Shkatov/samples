@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+    <module name="html" action="index" label="Custom HTML">
+        <param type="text" name="template" label="Template" />
+    </module>
+    <module name="html" action="setBgColor" label="BG">
+        <param type="empty" />
+        <param type="files" name="image" label="Select image"  folder="bg" onefile="true" />
+    </module>  
+</modules>
